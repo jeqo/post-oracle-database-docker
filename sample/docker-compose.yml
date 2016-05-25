@@ -1,0 +1,7 @@
+---
+version: '2'
+services:
+  db:
+    build: db
+    ports:
+      - "10521:1521"
